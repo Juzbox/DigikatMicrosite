@@ -97,6 +97,9 @@ src: url("Inter-Thin.ttf") format("truetype");
 	.about .about-grid {
 		display: block;
 	}
+	.exhibition .about-grid {
+		display: block;
+	}
 	.about-grid .para {
 		margin-bottom: 50px;
 	}
