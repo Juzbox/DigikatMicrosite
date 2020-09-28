@@ -86,7 +86,8 @@ src: url("Inter-Thin.ttf") format("truetype");
 		display: block;
 	}
 	.project .para {
-		margin-bottom: 50px;
+		margin-bottom: 150px;
+        margin-top: 50px;
 	}
 	.exhibition .exhibition-grid {
 		display: block;
@@ -164,11 +165,16 @@ html, body {
 	text-decoration: underline;
 }
 
+.buffer{
+ height: 15vh;   
+}
+
 .header {
+    
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100vh;
+	height: 15vh;
 	overflow: hidden;
 }
 
@@ -184,7 +190,9 @@ html, body {
 }
 
 .header-description {
-	width: 100%;
+    background: white;
+    position: fixed;
+	width: 90%;
 	overflow: hidden;
 }
 
@@ -226,6 +234,7 @@ html, body {
 
 .intro-grid {
 	display: grid;
+
 	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 3%;
 	height: 100%;
@@ -260,6 +269,7 @@ html, body {
 }
 
 .para a {
+    top: 10vh;
 	text-decoration: underline;
 	color: black;
 }
